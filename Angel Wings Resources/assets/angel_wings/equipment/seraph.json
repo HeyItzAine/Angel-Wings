@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "wings": [
+      {
+        "texture": "angel_wings:seraph"
+      }
+    ],
+    "humanoid": [
+      {
+        "texture": "angel_wings:yoke"
+      }
+    ]
+  }
+}

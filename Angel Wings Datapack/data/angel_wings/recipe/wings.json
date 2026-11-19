@@ -1,0 +1,65 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "GEG",
+    "FWF",
+    "FBF"
+  ],
+  "key": {
+    "G": "minecraft:gold_ingot",
+    "E": "minecraft:ender_eye",
+    "F": "minecraft:feather",
+    "W": "minecraft:elytra",
+    "B": "minecraft:blaze_powder"
+  },
+  "result": {
+    "id": "minecraft:elytra",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {
+        "angel_wings": true,
+        "angel_wings_v2": true,
+        "angel_wings_v3": true,
+        "angel_wings_v4": true,
+        "angel_wings_v6": true,
+        "angel_wings_v7": true
+      },
+      "minecraft:item_model": "angel_wings:wings",
+      "minecraft:item_name": {
+        "text": "Angel Wings",
+        "color": "gold",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Jump again in the air to open your wings.",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Move to fly \u00b7 Space to rise \u00b7 Crouch to parachute.",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": "Look up and crouch for 3s to charge.",
+          "color": "gray",
+          "italic": false
+        }
+      ],
+      "minecraft:enchantable": {
+        "value": 12
+      },
+      "minecraft:equippable": {
+        "slot": "chest",
+        "equip_sound": {
+          "sound_id": "angel_wings:rustle"
+        },
+        "damage_on_hurt": false,
+        "asset_id": "angel_wings:resting"
+      },
+      "minecraft:glider": {}
+    }
+  }
+}

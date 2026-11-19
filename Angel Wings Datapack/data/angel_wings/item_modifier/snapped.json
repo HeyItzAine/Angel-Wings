@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "type": "minecraft:set_custom_data",
+      "tag": "{aw_snapped:1b}"
+    },
+    {
+      "type": "minecraft:set_components",
+      "components": {
+        "minecraft:equippable": {
+          "slot": "chest",
+          "equip_sound": {
+            "sound_id": "angel_wings:rustle"
+          },
+          "damage_on_hurt": false,
+          "asset_id": "angel_wings:broken"
+        },
+        "!minecraft:glider": {}
+      }
+    }
+  ]
+}

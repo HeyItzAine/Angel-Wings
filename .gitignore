@@ -1,0 +1,19 @@
+old datapacks n rps/
+AngelWings-v*-*.png
+AngelWings-v*-*.gif
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
+credentials*
+secrets*
+*.local
+.cache/
+__pycache__/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store

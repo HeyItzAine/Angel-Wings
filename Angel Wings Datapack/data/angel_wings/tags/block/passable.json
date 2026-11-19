@@ -1,0 +1,18 @@
+{
+  "values": [
+    "#minecraft:air",
+    "minecraft:water",
+    "minecraft:bubble_column",
+    "minecraft:short_grass",
+    "minecraft:tall_grass",
+    "minecraft:fern",
+    "minecraft:large_fern",
+    "minecraft:vine",
+    "minecraft:light",
+    "minecraft:structure_void",
+    "minecraft:nether_portal",
+    "minecraft:fire",
+    "minecraft:soul_fire",
+    "#minecraft:flowers"
+  ]
+}

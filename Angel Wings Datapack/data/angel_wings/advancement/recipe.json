@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "feather": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:feather"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "angel_wings:wings"
+    ]
+  }
+}

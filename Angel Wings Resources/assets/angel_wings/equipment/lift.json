@@ -1,0 +1,18 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "angel_wings:pinions/lift_0"
+      },
+      {
+        "texture": "angel_wings:pinions/lift_1"
+      }
+    ],
+    "wings": [
+      {
+        "texture": "angel_wings:conceal",
+        "use_player_texture": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "rustle": {
+    "sounds": [
+      {
+        "name": "minecraft:item.armor.equip_elytra",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.angel_wings.rustle"
+  },
+  "draw": {
+    "sounds": [
+      "angel_wings:draw"
+    ],
+    "subtitle": "subtitles.angel_wings.draw"
+  },
+  "crest": {
+    "sounds": [
+      "angel_wings:crest"
+    ],
+    "subtitle": "subtitles.angel_wings.crest"
+  },
+  "release": {
+    "sounds": [
+      "angel_wings:release"
+    ],
+    "subtitle": "subtitles.angel_wings.release"
+  },
+  "opening": {
+    "sounds": [
+      "angel_wings:opening"
+    ],
+    "subtitle": "subtitles.angel_wings.opening"
+  },
+  "folding": {
+    "sounds": [
+      "angel_wings:folding"
+    ],
+    "subtitle": "subtitles.angel_wings.folding"
+  },
+  "snap": {
+    "sounds": [
+      "angel_wings:snap"
+    ],
+    "subtitle": "subtitles.angel_wings.snap"
+  }
+}
