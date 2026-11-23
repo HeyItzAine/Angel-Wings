@@ -2,7 +2,11 @@
 
 Craft feathered wings for free flight, hovering, and charged launches. Enchant them with Agility to fly faster.
 
-[Download the datapack](https://github.com/HeyItzAine/Angel-Wings/releases/download/v11/AngelWings.v11_mc_26.3.zip) · [Download the resource pack](https://github.com/HeyItzAine/Angel-Wings/releases/download/v11/AngelWings_RP_26.3.zip) · [Player guide](Production/Player%20guide.md)
+[Download the datapack](https://github.com/HeyItzAine/Angel-Wings/releases/download/v12/AngelWings.v12_mc_26.3.zip) · [Download the resource pack](https://github.com/HeyItzAine/Angel-Wings/releases/download/v12/AngelWings_RP_26.3.zip) · [Player guide](Production/Player%20guide.md)
+
+## Armored wings
+
+Drop Angel Wings and a chestplate together on an anvil to combine them. The wings keep their appearance and flight, gain the chestplate’s defenses, and use the higher level of each shared enchantment. Netherite protects the dropped wings from lava. Drop the combined pair on a grindstone to recover both items. Each gets its original enchantments back, and later upgrades stay on the wings.
 
 ## Wings are invisible when worn
 

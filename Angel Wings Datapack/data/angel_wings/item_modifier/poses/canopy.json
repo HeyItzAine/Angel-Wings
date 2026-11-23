@@ -1,13 +1,34 @@
 {
-  "type": "minecraft:set_components",
-  "components": {
-    "minecraft:equippable": {
-      "slot": "chest",
-      "equip_sound": {
-        "sound_id": "angel_wings:rustle"
-      },
-      "damage_on_hurt": false,
-      "asset_id": "angel_wings:canopy"
+  "type": "minecraft:filtered",
+  "item_filter": {
+    "predicates": {
+      "minecraft:custom_data": "{aw_plate:{}}"
+    }
+  },
+  "on_pass": {
+    "type": "minecraft:set_components",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "chest",
+        "equip_sound": {
+          "sound_id": "angel_wings:rustle"
+        },
+        "damage_on_hurt": true,
+        "asset_id": "angel_wings:canopy"
+      }
+    }
+  },
+  "on_fail": {
+    "type": "minecraft:set_components",
+    "components": {
+      "minecraft:equippable": {
+        "slot": "chest",
+        "equip_sound": {
+          "sound_id": "angel_wings:rustle"
+        },
+        "damage_on_hurt": false,
+        "asset_id": "angel_wings:canopy"
+      }
     }
   }
 }

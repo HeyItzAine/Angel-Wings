@@ -2,34 +2,73 @@
   "type": "minecraft:sequence",
   "functions": [
     {
-      "type": "minecraft:set_components",
-      "components": {
-        "minecraft:equippable": {
-          "slot": "chest",
-          "equip_sound": {
-            "sound_id": "angel_wings:rustle"
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": "{aw_plate:{}}"
+        }
+      },
+      "on_pass": {
+        "type": "minecraft:set_components",
+        "components": {
+          "minecraft:equippable": {
+            "slot": "chest",
+            "equip_sound": {
+              "sound_id": "angel_wings:rustle"
+            },
+            "damage_on_hurt": true,
+            "asset_id": "angel_wings:resting"
           },
-          "damage_on_hurt": false,
-          "asset_id": "angel_wings:resting"
-        },
-        "minecraft:glider": {},
-        "minecraft:lore": [
-          {
-            "text": "Jump again in the air to open your wings.",
-            "color": "gray",
-            "italic": false
+          "minecraft:glider": {},
+          "minecraft:lore": [
+            {
+              "text": "Jump again in the air to open your wings.",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": "Move to fly \u00b7 Space to rise \u00b7 Crouch to parachute.",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": "Look up and crouch for 3s to charge.",
+              "color": "gray",
+              "italic": false
+            }
+          ]
+        }
+      },
+      "on_fail": {
+        "type": "minecraft:set_components",
+        "components": {
+          "minecraft:equippable": {
+            "slot": "chest",
+            "equip_sound": {
+              "sound_id": "angel_wings:rustle"
+            },
+            "damage_on_hurt": false,
+            "asset_id": "angel_wings:resting"
           },
-          {
-            "text": "Move to fly \u00b7 Space to rise \u00b7 Crouch to parachute.",
-            "color": "gray",
-            "italic": false
-          },
-          {
-            "text": "Look up and crouch for 3s to charge.",
-            "color": "gray",
-            "italic": false
-          }
-        ]
+          "minecraft:glider": {},
+          "minecraft:lore": [
+            {
+              "text": "Jump again in the air to open your wings.",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": "Move to fly \u00b7 Space to rise \u00b7 Crouch to parachute.",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": "Look up and crouch for 3s to charge.",
+              "color": "gray",
+              "italic": false
+            }
+          ]
+        }
       }
     },
     {

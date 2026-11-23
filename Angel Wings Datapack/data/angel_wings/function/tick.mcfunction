@@ -10,3 +10,5 @@ execute at @a run kill @e[type=item_display,tag=aw.visual,distance=..128]
 execute as @a if items entity @s inventory.* *[enchantments~[{enchantments:"#angel_wings:wingbeat"}]] run function angel_wings:clean_inventory
 execute as @a if items entity @s hotbar.* *[enchantments~[{enchantments:"#angel_wings:wingbeat"}]] run function angel_wings:clean_inventory
 execute as @a if items entity @s weapon.offhand *[enchantments~[{enchantments:"#angel_wings:wingbeat"}]] run function angel_wings:clean_inventory
+scoreboard players add #station aw.clock 1
+execute if score #station aw.clock matches 5.. run function angel_wings:armor/scan

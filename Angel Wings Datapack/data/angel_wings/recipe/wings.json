@@ -1,18 +1,8 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_transmute",
   "category": "equipment",
-  "pattern": [
-    "GEG",
-    "FWF",
-    "FBF"
-  ],
-  "key": {
-    "G": "minecraft:gold_ingot",
-    "E": "minecraft:ender_eye",
-    "F": "minecraft:feather",
-    "W": "minecraft:elytra",
-    "B": "minecraft:blaze_powder"
-  },
+  "input": "minecraft:elytra",
+  "material": "minecraft:knowledge_book",
   "result": {
     "id": "minecraft:elytra",
     "count": 1,

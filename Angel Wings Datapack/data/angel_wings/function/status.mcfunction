@@ -1,1 +1,1 @@
-tellraw @s [{"text":"Angel Wings v11 Â· mode (0 ground / 1 glide / 2 hover / 3 descent) "},{"score":{"name":"@s","objective":"aw.mode"}},{"text":" Â· realism "},{"score":{"name":"@s","objective":"aw.real"}}]
+tellraw @s [{"text":"Angel Wings v12 Â· mode (0 ground / 1 glide / 2 hover / 3 descent) "},{"score":{"name":"@s","objective":"aw.mode"}},{"text":" Â· realism "},{"score":{"name":"@s","objective":"aw.real"}}]

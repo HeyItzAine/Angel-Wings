@@ -1,0 +1,9 @@
+data remove storage angel_wings:station result
+data remove storage angel_wings:station plate
+data remove storage angel_wings:station action
+data remove storage angel_wings:station pending
+data remove storage angel_wings:station text
+data remove storage angel_wings:station end
+data remove storage angel_wings:station next
+data remove storage angel_wings:station character
+data remove storage angel_wings:station key

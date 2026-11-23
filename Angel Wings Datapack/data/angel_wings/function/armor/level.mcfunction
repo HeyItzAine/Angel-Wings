@@ -1,0 +1,5 @@
+$execute store result score #donor aw.clock run data get storage angel_wings:station pending."$(key)"
+$execute store result score #wing aw.clock run data get storage angel_wings:station result.components."minecraft:enchantments"."$(key)"
+$execute if data storage angel_wings:station {action:"combine"} if score #donor aw.clock > #wing aw.clock run data modify storage angel_wings:station result.components."minecraft:enchantments"."$(key)" set from storage angel_wings:station pending."$(key)"
+$execute if data storage angel_wings:station {action:"separate"} if score #wing aw.clock <= #donor aw.clock run data remove storage angel_wings:station result.components."minecraft:enchantments"."$(key)"
+$data remove storage angel_wings:station pending."$(key)"

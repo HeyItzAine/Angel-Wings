@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "contents": {
+        "items": "#minecraft:chest_armor",
+        "count": 1
+      }
+    }
+  }
+}

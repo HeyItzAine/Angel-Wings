@@ -6,17 +6,39 @@
       "tag": "{aw_snapped:1b}"
     },
     {
-      "type": "minecraft:set_components",
-      "components": {
-        "minecraft:equippable": {
-          "slot": "chest",
-          "equip_sound": {
-            "sound_id": "angel_wings:rustle"
+      "type": "minecraft:filtered",
+      "item_filter": {
+        "predicates": {
+          "minecraft:custom_data": "{aw_plate:{}}"
+        }
+      },
+      "on_pass": {
+        "type": "minecraft:set_components",
+        "components": {
+          "minecraft:equippable": {
+            "slot": "chest",
+            "equip_sound": {
+              "sound_id": "angel_wings:rustle"
+            },
+            "damage_on_hurt": true,
+            "asset_id": "angel_wings:broken"
           },
-          "damage_on_hurt": false,
-          "asset_id": "angel_wings:broken"
-        },
-        "!minecraft:glider": {}
+          "!minecraft:glider": {}
+        }
+      },
+      "on_fail": {
+        "type": "minecraft:set_components",
+        "components": {
+          "minecraft:equippable": {
+            "slot": "chest",
+            "equip_sound": {
+              "sound_id": "angel_wings:rustle"
+            },
+            "damage_on_hurt": false,
+            "asset_id": "angel_wings:broken"
+          },
+          "!minecraft:glider": {}
+        }
       }
     }
   ]
