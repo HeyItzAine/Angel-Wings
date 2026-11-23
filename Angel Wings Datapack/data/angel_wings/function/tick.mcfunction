@@ -1,5 +1,7 @@
 execute unless data storage angel_wings:world {ready:1b} run return 0
 execute if entity @a unless data storage angel_wings:world installed run function angel_wings:first_load
+scoreboard players enable @a aw_mode
+execute as @a unless score @s aw_mode matches 0 at @s run function angel_wings:mode/toggle
 scoreboard players enable @a aw_realism
 execute as @a[scores={aw_realism=1..}] run function angel_wings:realism
 execute as @a[scores={aw_realism=..-1}] run scoreboard players set @s aw_realism 0

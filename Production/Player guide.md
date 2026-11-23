@@ -2,9 +2,13 @@
 
 ## Installation
 
-On Java Edition 26.3, close the world or stop the server before installing. Move older Angel Wings datapack ZIPs out of the world's `datapacks` folder, put the [v12 datapack](AngelWings.v12_mc_26.3.zip) there, then reopen the world or start the server. The first startup registers Agility and Wingbeat. After that, you can use `/reload`.
+On Java Edition 26.3, close the world or stop the server before installing. Move older Angel Wings datapack ZIPs out of the world's `datapacks` folder, put the [v13 datapack](AngelWings.v13_mc_26.3.zip) there, then reopen the world or start the server. The first startup registers Agility and Wingbeat. After that, you can use `/reload`.
 
 Put the [resource pack](AngelWings_RP_26.3.zip) in your client's `resourcepacks` folder and enable it above older Angel Wings packs. Keep both ZIPs intact.
+
+## Flight modes
+
+Use `/trigger aw_mode` to switch between **Angel mode** (the default) and **Elytra mode**. Elytra mode uses vanilla gliding and firework boosts. Switching during a hover restores gravity immediately. Your choice persists between sessions in this world.
 
 ## Craft the wings
 

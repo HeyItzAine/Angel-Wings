@@ -14,6 +14,7 @@ scoreboard objectives add aw.anchor dummy
 scoreboard objectives add aw.height dummy
 scoreboard objectives add aw.speed dummy
 scoreboard objectives add aw_realism trigger
+scoreboard objectives add aw_mode trigger
 scoreboard objectives add aw.lx dummy
 scoreboard objectives add aw.ly dummy
 scoreboard objectives add aw.lz dummy

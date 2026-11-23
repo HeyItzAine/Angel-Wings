@@ -2,7 +2,11 @@
 
 Craft feathered wings for free flight, hovering, and charged launches. Enchant them with Agility to fly faster.
 
-[Download the datapack](https://github.com/HeyItzAine/Angel-Wings/releases/download/v12/AngelWings.v12_mc_26.3.zip) · [Download the resource pack](https://github.com/HeyItzAine/Angel-Wings/releases/download/v12/AngelWings_RP_26.3.zip) · [Player guide](Production/Player%20guide.md)
+[Download the datapack](https://github.com/HeyItzAine/Angel-Wings/releases/download/v13/AngelWings.v13_mc_26.3.zip) · [Download the resource pack](https://github.com/HeyItzAine/Angel-Wings/releases/download/v13/AngelWings_RP_26.3.zip) · [Player guide](Production/Player%20guide.md)
+
+## Flight modes
+
+Use `/trigger aw_mode` to switch between **Angel mode** (the default) and **Elytra mode**. Elytra mode uses vanilla gliding and firework boosts. Switching during a hover restores gravity immediately. Your choice persists between sessions in this world.
 
 ## Armored wings
 

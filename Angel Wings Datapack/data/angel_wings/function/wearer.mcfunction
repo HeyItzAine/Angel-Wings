@@ -4,4 +4,5 @@ execute if items entity @s armor.chest *[damage~{durability:{max:1}}] unless sco
 execute if items entity @s armor.chest *[damage~{durability:{max:1}}] run return 0
 execute if items entity @s armor.chest *[custom_data~{aw_snapped:1b}] run function angel_wings:repair
 execute if score @s aw.pose matches 6 run function angel_wings:equip
+execute if entity @s[tag=aw.elytra] run return run function angel_wings:mode/elytra
 execute unless entity @s[nbt={Health:0.0f}] run function angel_wings:control
